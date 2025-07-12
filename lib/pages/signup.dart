@@ -26,7 +26,7 @@ class _SignUpState extends State<SignUp> {
       isLoading = true;
     });
     final response = await auth.signUp(
-        name: name.text, email: email.text, passwordHash: password.text);
+        name: name.text, email: email.text, password: password.text);
 
     if (response['status'] == 200) {
       Fluttertoast.showToast(

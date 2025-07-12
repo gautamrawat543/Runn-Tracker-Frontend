@@ -91,7 +91,6 @@ The app is connected to a **Spring Boot backend** hosted on **Render.com**, whic
 
 ## 📱 Screenshots
 
-```
 ### 🏁 Live Run Tracker
 
 <img src="assets/screenshots/map.jpg" width="400"/>
@@ -103,7 +102,6 @@ The app is connected to a **Spring Boot backend** hosted on **Render.com**, whic
 ### 👤 Profile & Settings
 
 <img src="assets/screenshots/profile.jpg" width="400"/>
-```
 
 ---
 

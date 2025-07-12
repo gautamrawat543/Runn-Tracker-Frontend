@@ -8,7 +8,7 @@ class ApiAuth {
   Future<Map<String, dynamic>> signUp(
       {required String name,
       required String email,
-      required String passwordHash}) async {
+      required String password}) async {
     final url = Uri.parse("$_baseUrl/signup");
     try {
       final response = await http.post(
@@ -19,7 +19,7 @@ class ApiAuth {
         body: jsonEncode({
           "name": name,
           "email": email,
-          "passwordHash": passwordHash,
+          "password": password,
         }),
       );
 
@@ -50,7 +50,7 @@ class ApiAuth {
         },
         body: jsonEncode({
           "email": email,
-          "passwordHash": password,
+          "password": password,
         }),
       );
 
